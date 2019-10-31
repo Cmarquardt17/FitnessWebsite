@@ -9,3 +9,8 @@ function S(i) {
 function C(i) { 
     return document.getElementsByClassName(i)
 }
+
+function ifNotFilled(i){
+    var data = document.getElementById(i);
+    data.style.color = "red";
+}

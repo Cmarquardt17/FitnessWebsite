@@ -23,9 +23,7 @@ if (isset($_SESSION['user']))
 if (isset($_POST['user'])) {
     $user = sanitizeString($_POST['user']);
     $pass = sanitizeString($_POST['pass']);
-    $weight = sanitizeString($_POST['pass']);
-    $height = sanitizeString($_POST['pass']);
-
+    
     if ($user == "" || $pass == "")
         $error = 'Not all fields were entered<br><br>';
     else {
@@ -55,14 +53,6 @@ echo <<<_END
         <div data-role='fieldcontain'>
             <label>Password</label>
             <input type='text' maxlength='16' name='pass' value='$pass'>
-        </div>
-        <div data-role='fieldcontain'>
-            <label>Weight</label>
-            <input type='text' maxlength='5' name='weight' value='$weight'>
-        </div>
-        <div data-role='fieldcontain'>
-            <label>Height (in inches)</label>
-            <input type='text' maxlength='5' name='height' value='$height'>
         </div>
         <div data-role='fieldcontain'>
             <label></label>

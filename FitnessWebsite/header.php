@@ -14,6 +14,7 @@ echo <<<_INIT
         <script src='javascript.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Arsenal|Lora|Muli|Source+Sans+Pro|Playfair+Display&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
+        <link rel='stylesheet' href='css/signupstyles.css'>
         <title>$clubstr: $userstr</title>
         </head>
 _INIT;
