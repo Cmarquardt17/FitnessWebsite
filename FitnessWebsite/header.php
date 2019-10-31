@@ -1,8 +1,9 @@
 <?php
 session_start();
 
-$clubstr = 'Csci-491 Demo Lamp Stack Site';
-$userstr = 'Welcome Guest';
+$clubstr = 'Fitness Bros';
+$sloganSTR ='Strive to Succeed';
+$userstr = 'Welcome fellow lifter';
 
 echo <<<_INIT
 <!DOCTYPE html> 
@@ -32,7 +33,10 @@ echo <<<_HEADER_OPEN
     <body>
         <div id="wrapper">
         <header>
+            <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='30' weight='30'>
             <div id='logo'>$clubstr</div>
+            <div>
+            <div id=slogan'>$sloganSTR</div>
 _HEADER_OPEN;
 
 if ($loggedin) {
