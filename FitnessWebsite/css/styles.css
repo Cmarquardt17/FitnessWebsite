@@ -31,12 +31,16 @@ html {
 }
 
 header {
-    background-color: white;
-    background-color: crimson;
+    background-color: black;
+    background-color: rgb(21, 138, 154);
     height: 140px;
     position: relative;
 }
-
+#logoPic{
+float: left;
+margin-left: 20px;
+margin-top: 20px;
+}
 #logo {
     font-family: 'Playfair Display', serif;
     padding: 20px 0;
@@ -48,8 +52,11 @@ header {
     text-align: center;
     color: white;
     line-height: 1.0em;
+    float: left;
 }
-
+#slogan{
+    float:right;
+}
 nav {
     position: absolute;
     width: 100%;
