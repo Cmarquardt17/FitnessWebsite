@@ -17,7 +17,7 @@ createTable('members',
             pass VARCHAR(16),
             INDEX(user(6))');
 
-createTable('messages',
+createTable('blogs',
             'id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             auth VARCHAR(16),
             recip VARCHAR(16),
@@ -27,11 +27,6 @@ createTable('messages',
             INDEX(auth(6)),
             INDEX(recip(6))');
 
-createTable('friends',
-            'user VARCHAR(16),
-            friend VARCHAR(16),
-            INDEX(user(6)),
-            INDEX(friend(6))');
 
 createTable('profiles',
             'user VARCHAR(16),
