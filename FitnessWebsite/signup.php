@@ -23,7 +23,10 @@ if (isset($_SESSION['user']))
 if (isset($_POST['user'])) {
     $user = sanitizeString($_POST['user']);
     $pass = sanitizeString($_POST['pass']);
-    
+    $firstName = sanitizeString($_POST['first']);
+    $mIn = sanitizeString($_POST['mIn']);
+    $lastName = sanitizeString($_POST['last']);
+    $type = sanitizeString($_POST['type']);
     if ($user == "" || $pass == "")
         $error = 'Not all fields were entered<br><br>';
     else {
@@ -32,7 +35,8 @@ if (isset($_POST['user'])) {
         if ($result->num_rows)
             $error = 'That username already exists<br><br>';
         else {
-            queryMysql("INSERT INTO members VALUES('$user', '$pass')");
+            echo " . $firstName . ";
+            queryMysql("INSERT INTO members VALUES('$user', '$pass','$firstName','$mIn','$lastName', '$type')");
             die('<h4>Account created</h4>Please Log in.</div></body></html>');
         }
     }
@@ -53,6 +57,23 @@ echo <<<_END
         <div data-role='fieldcontain'>
             <label>Password</label>
             <input type='text' maxlength='16' name='pass' value='$pass'>
+        </div>
+        <div data-role='fieldcontain'>
+            <label>First Name</label>
+            <input type='text' maxlength='16' name='first' value='$firstName'>
+        </div>
+        <div data-role='fieldcontain'>
+            <label>Middle Inital</label>
+            <input type='text' maxlength='16' name='mIn' value='$mIn'>
+        </div>
+        <div data-role='fieldcontain'>
+            <label>Last Name</label>
+            <input type='text' maxlength='16' name='last' value='$lastName'>
+        </div>
+        
+        <div data-role='fieldcontain'>
+            <label>What type of Lifter are you? (Crossfit, Body Builder, Newbie, or Runner?)<br></label>
+            <input type='text' maxlength='16' name='type' value='$type'>
         </div>
         <div data-role='fieldcontain'>
             <label></label>
