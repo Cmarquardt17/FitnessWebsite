@@ -13,7 +13,9 @@ echo <<<_INIT
         <meta name='viewport' content='width=device-width, initial-scale=1'> 
         <script src='javascript.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Arsenal|Lora|Muli|Source+Sans+Pro|Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
+        <link rel='stylesheet' href='css/signup.css'>
         <title>$clubstr: $userstr</title>
         </head>
 _INIT;
@@ -28,14 +30,14 @@ if (isset($_SESSION['user'])) {
 else $loggedin = FALSE;
 
 echo <<<_HEADER_OPEN
-    
+<div class = 'back'>
     <body>
-        <div id="wrapper">
         <header>
             <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='30' weight='30'>
             <div id='logo'>$clubstr</div>
             <div>
             <div id=slogan'>$sloganSTR</div>
+
 _HEADER_OPEN;
 
 if ($loggedin) {

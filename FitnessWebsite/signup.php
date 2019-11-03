@@ -35,7 +35,6 @@ if (isset($_POST['user'])) {
         if ($result->num_rows)
             $error = 'That username already exists<br><br>';
         else {
-            echo " . $firstName . ";
             queryMysql("INSERT INTO members VALUES('$user', '$pass','$firstName','$mIn','$lastName', '$type')");
             die('<h4>Account created</h4>Please Log in.</div></body></html>');
         }
@@ -46,7 +45,7 @@ echo <<<_END
     <form method='post' action='signup.php'>$error
         <div data-role='fieldcontain'>
             <label></label>
-            <h3>Create username and password</h3>
+            <h3>Please fill in the necessary information to get started!</h3>
         </div>
         <div data-role='fieldcontain'>
             <label>Username</label>
@@ -77,7 +76,9 @@ echo <<<_END
         </div>
         <div data-role='fieldcontain'>
             <label></label>
-            <input data-transition='slide' type='submit' value='Sign Up'>
+            <div id='times'>
+            <input data-transition='slide' type='submit' value='Sign Up' id='times'>
+            </div>
         </div>
     </form>
 _END;
