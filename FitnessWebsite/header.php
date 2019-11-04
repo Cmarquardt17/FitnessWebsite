@@ -33,7 +33,7 @@ else $loggedin = FALSE;
 echo <<<_HEADER_OPEN
     
     <body>
-        <div id="wrapper">
+        <div>
         <header>
             <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='80' weight='30'>
             <div id='logo'>$clubstr<div id='slogan'>$sloganSTR</div></div>
@@ -44,7 +44,7 @@ if ($loggedin) {
 echo <<<_LOGGEDIN
 
             <nav><ul>
-                <li><a href='members.php?view=$user' onclick = "currentSlide(1)">Home</a></li>
+                <li><a href='members.php?view=$user'>Home</a></li>
                 <li><a href='members.php'>Members</a></li>
                 <li><a href='friends.php'>Friends</a></li>
                 <li><a href='messages.php'>Messages</a></li>
@@ -57,7 +57,7 @@ _LOGGEDIN;
 echo <<<_GUEST
 
             <nav><ul>
-                <li><a href='index.php'onclick = "currentSlide(1)">Home</a></li>
+                <li><a href='index.php'>Home</a></li>
                 <li><a href='signup.php'>Sign Up</a></li>
                 <li><a href='login.php'>Log In</a></li>
                 <li><a href='about.php'>About</a></li>
