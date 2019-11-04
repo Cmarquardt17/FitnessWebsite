@@ -24,42 +24,22 @@ html {
 #wrapper {
     margin: auto;
     max-width: 800px;
+    border-style: ridge;
+    border-width: 0 6px;
     border-color: #222;
-    border-style: dotted;
-    border-width: 0 5px;
     padding: 0 5px;
 }
 
 header {
-    background-color: black;
     background-color: rgb(21, 138, 154);
-    height: 140px;
+    height: 160px;
     position: relative;
 }
-#logoPic{
-float: left;
-margin-left: 20px;
-margin-top: 20px;
-}
-#logo {
-    font-family: 'Playfair Display', serif;
-    padding: 20px 0;
-    width: 200px;
-    margin: 0 40px;
-    font-variant: small-caps;
-    letter-spacing: .05em;
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
-    line-height: 1.0em;
-    float: left;
-}
-#slogan{
-    float:right;
-}
+
+
 nav {
     position: absolute;
-    width: 100%;
+    width: auto;
     bottom: 0;
 }
 
@@ -67,7 +47,6 @@ nav ul {
     font-family: 'Muli', sans-serif;
     list-style-type: none;
     overflow: hidden;
-    color: #ddd;
     background-color: #222;
     margin: 0;
     padding: 0;
@@ -75,6 +54,7 @@ nav ul {
 
 nav li {
     float: left;
+
 }
 
 nav li a {
@@ -83,10 +63,16 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-width: 5px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: rgb(21, 138, 154);
 }
 
 nav li a:hover {
-    background-color: crimson;
+    background-color: rgb(21, 138, 154);
+    color: black;
+    font-weight: bold;
 }
 
 #content {
