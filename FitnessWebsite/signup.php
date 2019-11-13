@@ -23,7 +23,10 @@ if (isset($_SESSION['user']))
 if (isset($_POST['user'])) {
     $user = sanitizeString($_POST['user']);
     $pass = sanitizeString($_POST['pass']);
-    
+    $firstName = sanitizeString($_POST['first']);
+    $mIn = sanitizeString($_POST['mIn']);
+    $lastName = sanitizeString($_POST['last']);
+    $type = sanitizeString($_POST['type']);
     if ($user == "" || $pass == "")
         $error = 'Not all fields were entered<br><br>';
     else {
@@ -32,7 +35,7 @@ if (isset($_POST['user'])) {
         if ($result->num_rows)
             $error = 'That username already exists<br><br>';
         else {
-            queryMysql("INSERT INTO members VALUES('$user', '$pass')");
+            queryMysql("INSERT INTO members VALUES('$user', '$pass','$firstName','$mIn','$lastName', '$type')");
             die('<h4>Account created</h4>Please Log in.</div></body></html>');
         }
     }
@@ -42,7 +45,7 @@ echo <<<_END
     <form method='post' action='signup.php'>$error
         <div data-role='fieldcontain'>
             <label></label>
-            <h3>Create username and password</h3>
+            <h3>Please fill in the necessary information to get started!</h3>
         </div>
         <div data-role='fieldcontain'>
             <label>Username</label>
@@ -55,8 +58,27 @@ echo <<<_END
             <input type='text' maxlength='16' name='pass' value='$pass'>
         </div>
         <div data-role='fieldcontain'>
+            <label>First Name</label>
+            <input type='text' maxlength='16' name='first' value='$firstName'>
+        </div>
+        <div data-role='fieldcontain'>
+            <label>Middle Inital</label>
+            <input type='text' maxlength='16' name='mIn' value='$mIn'>
+        </div>
+        <div data-role='fieldcontain'>
+            <label>Last Name</label>
+            <input type='text' maxlength='16' name='last' value='$lastName'>
+        </div>
+        
+        <div data-role='fieldcontain'>
+            <label>What type of Lifter are you? (Crossfit, Body Builder, Newbie, or Runner?)<br></label>
+            <input type='text' maxlength='16' name='type' value='$type'>
+        </div>
+        <div data-role='fieldcontain'>
             <label></label>
-            <input data-transition='slide' type='submit' value='Sign Up'>
+            <div id='times'>
+            <input data-transition='slide' type='submit' value='Sign Up' id='times'>
+            </div>
         </div>
     </form>
 _END;

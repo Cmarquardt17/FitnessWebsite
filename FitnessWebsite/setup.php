@@ -15,8 +15,11 @@ require_once 'functions.php';
 createTable('members',
             'user VARCHAR(16),
             pass VARCHAR(16),
-            weight VARCHAR(16),
-            height VARCHAR(16),
+            first VARCHAR(16),
+            mIn VARCHAR(5),
+            last VARCHAR(16),
+            type VARCHAR(16),
+
             INDEX(user(6))');
 
 createTable('blogs',

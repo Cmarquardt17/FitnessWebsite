@@ -1,0 +1,38 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  label{
+    font-family: 'Francois One', sans-serif;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(21, 138, 154);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(56, 86, 89);
+  }
+#times{
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    letter-spacing: .2em;
+  }
+  
+h3{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

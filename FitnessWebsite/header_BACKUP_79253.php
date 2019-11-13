@@ -3,7 +3,6 @@ session_start();
 
 $clubstr = 'Fitness Bros';
 $sloganSTR ='Strive to Succeed';
-$sloganSTR2 = 'Welcome to the Pack!';
 $userstr = 'Welcome fellow lifter';
 
 echo <<<_INIT
@@ -16,8 +15,11 @@ echo <<<_INIT
         <link href="https://fonts.googleapis.com/css?family=Arsenal|Lora|Muli|Source+Sans+Pro|Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
+<<<<<<< HEAD
         <link rel='stylesheet' href='css/signupstyles.css'>
-        <link rel='stylesheet' href='css/headerstyle.css'>
+=======
+        <link rel='stylesheet' href='css/signup.css'>
+>>>>>>> Christian
         <title>$clubstr: $userstr</title>
         </head>
 _INIT;
@@ -34,11 +36,12 @@ else $loggedin = FALSE;
 echo <<<_HEADER_OPEN
 <div class = 'back'>
     <body>
-        <div>
         <header>
-            <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='80' weight='30'>
-            <div id='logo'>$clubstr<div id='slogan'>$sloganSTR</div></div>
+            <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='30' weight='30'>
+            <div id='logo'>$clubstr</div>
             <div>
+            <div id=slogan'>$sloganSTR</div>
+
 _HEADER_OPEN;
 
 if ($loggedin) {
@@ -51,7 +54,6 @@ echo <<<_LOGGEDIN
                 <li><a href='messages.php'>Messages</a></li>
                 <li><a href='profile.php'>Edit Profile</a></li>
                 <li><a href='logout.php'>Log out</a></li>
-                <li><a href='about.php'>About</a></li>
             </ul></nav>
 _LOGGEDIN;
 } else {
@@ -61,7 +63,6 @@ echo <<<_GUEST
                 <li><a href='index.php'>Home</a></li>
                 <li><a href='signup.php'>Sign Up</a></li>
                 <li><a href='login.php'>Log In</a></li>
-                <li><a href='about.php'>About</a></li>
             </ul></nav>
 _GUEST;
  }
