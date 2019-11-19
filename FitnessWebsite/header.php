@@ -17,12 +17,7 @@ echo <<<_INIT
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
-<<<<<<< HEAD
-        <link rel='stylesheet' href='css/signupstyles.css'>
-||||||| merged common ancestors
-=======
         <link rel='stylesheet' href='css/signup.css'>
->>>>>>> Christian
         <title>$clubstr: $userstr</title>
         </head>
 _INIT;

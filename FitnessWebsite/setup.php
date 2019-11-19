@@ -15,17 +15,8 @@ require_once 'functions.php';
 createTable('members',
             'user VARCHAR(16),
             pass VARCHAR(16),
-<<<<<<< HEAD
             weight VARCHAR(16),
             height VARCHAR(16),
-||||||| merged common ancestors
-=======
-            first VARCHAR(16),
-            mIn VARCHAR(5),
-            last VARCHAR(16),
-            type VARCHAR(16),
-
->>>>>>> Christian
             INDEX(user(6))');
 
 createTable('blogs',
