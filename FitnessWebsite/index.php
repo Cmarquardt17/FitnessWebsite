@@ -2,46 +2,100 @@
 session_start();
 require_once 'header.php';
 
-echo "<h3>Welcome to $clubstr. </h3>";
-echo "<div>";
-
-         
+if ($loggedin) 
+    echo " $user, you are logged in";
+else           
 echo <<<_END
-<!DOCTYPE html> 
-<html>
-<div class="slideshow-container">
+<h1> Welcome to Fitness Bros! </h1>
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
-  
-  <img src="img/pic1.jpg" style="width:100%">
-  
-</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/exercise.jpg" alt="Lift">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Relevant blogs on Health</h5>
+        <p>Everything from diet, current trends, and more</p>
+      </div>
+      </div>
 
-<div class="mySlides fade">
-  
-  <img src="img/pic2.jpg" style="width:100%">
-  
-</div>
+      <div class="carousel-item">
+        <img src="img/weightroom.jpg" alt="Weights">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Workouts Specialized for you!</h5>
+        <p>A specialized workout creator for day-to-day routines</p>
+      </div>
+      </div>
+    
+      <div class="carousel-item">
+        <img src="img/matrix.jpg" alt="Matrix">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Meet the Devs!</h5>
+        <p>Meet the people who made this a reality</p>
+      </div>
+      </div>
+    </div>
 
-<div class="mySlides fade">
-  
-  <img src="img/pic3.jpg" style="width:100%">
-  
-</div>
+    <!-- Carousel controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <hr class="featurette-divider">
+  <!-- START THE FEATURETTES -->
 
-<!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+        <hr class="featurette-divider">
 
-<!-- The dots/circles -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Exercising the right way</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="img/ptrainer.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
 
-<script type='text/javascript'>window.onload=showSlides();</script>
-_END;
-echo <<<_END
-    </div><br>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">See improvements within days. <span class="text-muted">Come see for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="img/food.jpg" alt="food">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Checkout the Github Repo!</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="img/github.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
 _END;
 
 require_once 'footer.php';

@@ -5,6 +5,12 @@ html {
     background-color: white;
 }
 
+h3{
+    text-align: center;
+}
+body{
+    background-color: rgb(205, 205, 205);
+}
 #wrapper {
     margin: auto;
     max-width: 800px;
@@ -64,10 +70,10 @@ nav li a:hover {
 }
 
 #content {
-    min-height: 200px;
+    min-height: 100px;
     padding: 0 50px;
     background-color: white;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .username {
@@ -98,14 +104,42 @@ textarea {
     height: 100px;
 }
 
-footer {
-    font-family: 'Muli', sans-serif;
-    padding: 20px;
-    color: #ddd;
-    background-color: #222;
-    font-size: .9em;
+.h3-responsive{
+    color: black;
 }
 
-footer a {
+.footer-bg{
+  background-color: #61b9fa;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+.carousel-inner > .carousel-item > img {
+    width:100%;
+    height:500px;
+  }
+
+  .carousel-inner
+{
+    margin-bottom: 60px;
+}
+  .carousel-inner > .carousel-item > .carousel-caption{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+  }
+h1{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
 }
