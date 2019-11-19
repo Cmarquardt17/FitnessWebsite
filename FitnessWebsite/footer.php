@@ -1,13 +1,93 @@
 <?php 
   echo <<<_END
-    </div>
-        <footer>
-            <h3>About the Template</h3>
-            <p>$clubstr is a template for MSU CSCI 491 students to create their own LAMP stack web application. Once up and running, this footer content and other code withing the project is intented to be replaced with custom modifications.</p>
-            <p>This assignment is derived from Robin Nixon's book, "Learning PHP, JavaScript, and MySQL" 5th Edition, (espececially Chapters 2, 8, and 27) available for online checkout through the MSU Library; original code samples (particularly the folder called <em>robinsnest</em> ) are available online at the book's <a href="http://lpmj.net/5thedition/">companion website</a>.</p>
-        </footer>
+  <!-- Footer -->
+  </div>
+  <div class="footer-bg">
+  <footer class="page-footer font-small blue pt-4">
+  
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+  
         </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  </div>
+  <!-- Footer -->
     </body>
+    </div>
 </html>
 _END;
 ?>
