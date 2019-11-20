@@ -83,6 +83,9 @@ echo <<<_GUEST
       <li class="nav-item">
         <a class="nav-link" href="about.php">About</a>
       </li>
+    <li class="nav-item">
+      <a class="nav-link" href="dev.php">Developers</a>
+    </li>
     </ul>
     <span class="navbar-text">
     </span>
