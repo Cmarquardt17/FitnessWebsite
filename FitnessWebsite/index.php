@@ -35,7 +35,7 @@ echo <<<_END
       </div>
     
       <div class="carousel-item">
-        <img src="img/matrix.jpg" alt="Matrix">
+        <img src="img/matrix.jpg" alt="Matrix" >
         <div class="carousel-caption d-none d-md-block">
         <h5>Meet the Devs!</h5>
         <p>Meet the people who made this a reality</p>

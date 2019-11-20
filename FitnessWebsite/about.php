@@ -68,6 +68,18 @@ echo <<<_END
           <figcaption class="figure-caption">After using Fittness Bros</figcaption>
     </div>
 
+	    <div class="col-md-3 col-sm-6 mb-4">
+    <figure class="figure">
+            <img class="img-fluid" id="img-fluid2" src="img/before4.jpg" alt="">
+          <figcaption class="figure-caption">Beofre using Fittness Bros</figcaption>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-4">
+    <figure class="figure">
+            <img class="img-fluid" id="img-fluid2" src="img/after4.jpg" alt="">
+          <figcaption class="figure-caption">After using Fittness Bros</figcaption>
+    </div>
+
   </div>
   <!-- /.row -->
 
