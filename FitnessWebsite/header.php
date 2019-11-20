@@ -17,8 +17,6 @@ echo <<<_INIT
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
-        <link rel='stylesheet' href='css/signupstyles.css'>
-        <link rel='stylesheet' href='css/headerstyle.css'>
         <link rel='stylesheet' href='css/signup.css'>
         <title>$clubstr: $userstr</title>
         </head>
@@ -36,13 +34,6 @@ else {
   $userstr = '';
 }
 echo <<<_HEADER_OPEN
-<div class = 'back'>
-    <body>
-        <div>
-        <header>
-            <img id = 'logoPic' src='img/wolf.png' alt='wolf' height='80' weight='30'>
-            <div id='logo'>$clubstr<div id='slogan'>$sloganSTR</div></div>
-            <div>
         <body>
 _HEADER_OPEN;
 
