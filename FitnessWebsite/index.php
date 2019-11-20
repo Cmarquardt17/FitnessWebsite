@@ -33,12 +33,13 @@ echo <<<_END
         <p>A specialized workout creator for day-to-day routines</p>
       </div>
       </div>
-    
+
+      <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">
       <div class="carousel-item">
-        <img src="img/matrix.jpg" alt="Matrix" >
+        <img src="img/matrix.jpg" alt="Matrix">
         <div class="carousel-caption d-none d-md-block">
-        <h5>Meet the Devs!</h5>
-        <p>Meet the people who made this a reality</p>
+        <h5 class = "p5">Meet the Devs!</h5>
+        <p class = "p5">Meet the people who made this a reality</p></a>
       </div>
       </div>
     </div>
