@@ -42,6 +42,7 @@ if (isset($_POST['user'])) {
 }
 
 echo <<<_END
+<div class="container">
     <form method='post' action='signup.php'>$error
         <div data-role='fieldcontain'>
             <label></label>
@@ -77,7 +78,7 @@ echo <<<_END
         <div data-role='fieldcontain'>
             <label></label>
             <div id='times'>
-            <input data-transition='slide' type='submit' value='Sign Up' id='times'>
+            <input data-transition='slide' type='submit' value='Sign Up Its Free!' id='times'>
             </div>
         </div>
     </form>

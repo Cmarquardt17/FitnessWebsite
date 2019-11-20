@@ -10,10 +10,11 @@ input[type=text], select {
   }
   label{
     font-family: 'Francois One', sans-serif;
+    color: white;
   }
   input[type=submit] {
     width: 100%;
-    background-color: rgb(21, 138, 154);
+    background-color: rgb(162, 162, 162);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -23,7 +24,7 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color: rgb(56, 86, 89);
+    background-color: rgb(86, 87, 87);
   }
 #times{
     font-family: 'Francois One', sans-serif;
@@ -35,4 +36,5 @@ h3{
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
     margin-bottom: 50px;
+    color: white;
 }

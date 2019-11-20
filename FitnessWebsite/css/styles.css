@@ -44,7 +44,6 @@ header {
 }
 
 
-<<<<<<< Updated upstream
 nav {
     position: absolute;
     width: auto;
@@ -83,8 +82,6 @@ nav li a:hover {
     font-weight: bold;
 }
 
-=======
->>>>>>> Stashed changes
 #content {
     min-height: 200px;
     padding: 0 50px;
@@ -130,7 +127,6 @@ footer {
 
 footer a {
     color: white;
-<<<<<<< Updated upstream
 }
 p{
     margin-left: 30px;
@@ -152,7 +148,6 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
   }
-=======
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
@@ -183,4 +178,3 @@ h1{
     border-top: 100px;
     height: 400px;
 }
->>>>>>> Stashed changes
