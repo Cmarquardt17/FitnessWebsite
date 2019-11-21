@@ -31,7 +31,7 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Developers</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">Developers </a>
             </li>
             <li>
               <a href="#!">Facebook</a>

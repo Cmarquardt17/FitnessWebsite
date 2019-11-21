@@ -8,6 +8,7 @@ html {
 h3{
     text-align: center;
 }
+}
 body{
     background-color: rgb(205, 205, 205);
 }
@@ -126,3 +127,5 @@ textarea {
     border-top: 100px;
     height: 400px;
 }
+
+
