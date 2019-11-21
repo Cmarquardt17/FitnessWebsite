@@ -77,6 +77,9 @@ echo <<<_GUEST
     <li class="nav-item">
       <a class="nav-link" href="dev.php">Developers</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="blog.php">Blog</a>
+    </li>
     </ul>
     <span class="navbar-text">
     </span>
