@@ -85,8 +85,13 @@ echo <<<_GUEST
       <a class="nav-link" href="dev.php">Developers</a>
     </li>
     <li class="nav-item">
+<<<<<<< Updated upstream
       <a class="nav-link" href="blog.php">Blog</a>
     </li>    
+=======
+    <a class="nav-link" href="blog.php">Blog</a>
+  </li>
+>>>>>>> Stashed changes
     </ul>
     <span class="navbar-text">
     </span>
