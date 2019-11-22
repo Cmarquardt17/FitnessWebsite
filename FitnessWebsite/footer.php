@@ -31,16 +31,16 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">Developers </a>
             </li>
             <li>
-              <a href="#!">Link 2</a>
+              <a href="#!">Facebook</a>
             </li>
             <li>
-              <a href="#!">Link 3</a>
+              <a href="#!">Instagram</a>
             </li>
             <li>
-              <a href="#!">Link 4</a>
+              <a href="#!">Twitter</a>
             </li>
           </ul>
   

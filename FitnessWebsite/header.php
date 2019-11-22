@@ -54,7 +54,7 @@ _LOGGEDIN;
 } else {
 echo <<<_GUEST
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #61b9fa;">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="http://localhost/FitnessWebsite/FitnessWebsite/index.php">
   <img class='logo' src="img/ArticWolf.jpg" alt="logo" width="60" class="d-inline-block align-middle mr-2">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,6 +74,12 @@ echo <<<_GUEST
       <li class="nav-item">
         <a class="nav-link" href="about.php">About</a>
       </li>
+    <li class="nav-item">
+      <a class="nav-link" href="dev.php">Developers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="blog.php">Blog</a>
+    </li>
     </ul>
     <span class="navbar-text">
     </span>
