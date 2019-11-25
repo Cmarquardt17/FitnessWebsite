@@ -31,7 +31,7 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">Developers </a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/blog.php">Blog</a>
             </li>
             <li>
               <a href="#!">Facebook</a>
@@ -55,16 +55,16 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/login.php">Login</a>
             </li>
             <li>
-              <a href="#!">Link 2</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/signup.php">Sign Up</a>
             </li>
             <li>
-              <a href="#!">Link 3</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/about.php">About</a>
             </li>
             <li>
-              <a href="#!">Link 4</a>
+              <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">Developers</a>
             </li>
           </ul>
   
