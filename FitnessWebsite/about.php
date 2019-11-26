@@ -20,7 +20,7 @@ echo <<<_END
     <div class="col-md-4">
       <h3 class="my-3" id = "par1">Our Goal</h3>
       <p>Here at Fitness Bros we strive to help people increase their physicial health through routine exercise. By exercising your body regularly, you can increase both your mental health and your lifespan. The growing community here at Fittness bros aim to grow even firther to reach more people and better more lives.</p>
-      <h3 class="my-3">Our Motto and its Meaning</h3>
+      <h3 class="my-3" id = "par2">Our Motto and its Meaning</h3>
       <p><div><strong>"Strive to Succeed"</strong></div>The entire team at Fittness Bros is serious about success. This is the core motivation for what we do. Sharing and spreading this need for success is what makes our community so great. In the words of our lord and savior, <em>“Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.”</em> – Arnold Schwarzenegger.</p>
     </div>
 
