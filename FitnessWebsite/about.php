@@ -28,7 +28,7 @@ echo <<<_END
   <!-- /.row -->
 
   <!-- Related Projects Row -->
-  <h3 class="my-4">Testimonies to our Success</h3>
+  <h3 class="my-4" id = "par2">Testimonies to our Success</h3>
 
   <div class="row">
 
