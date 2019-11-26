@@ -123,8 +123,10 @@ textarea {
     min-width: 70%;
 }
 #img-fluid3{
-    border-top: 100px;
-    height: 400px;
+    border-top-width: 200px;
+    height: fit-content;
+    width: fit-content;
 }
-
-
+#par1{
+    color: black!important;
+}
