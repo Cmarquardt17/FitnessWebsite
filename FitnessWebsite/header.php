@@ -13,11 +13,13 @@ echo <<<_INIT
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/styles.css'>
         <link rel='stylesheet' href='css/signup.css'>
+        <link rel='stylesheet' href='css/profileLayout.css'>
         <title>$clubstr: $userstr</title>
         </head>
 _INIT;
@@ -39,23 +41,44 @@ _HEADER_OPEN;
 
 if ($loggedin) {
 echo <<<_LOGGEDIN
-
-            <nav class="mynav">
-            <ul>
-                <li><a href='members.php?view=$user'>Home</a></li>
-                <li><a href='members.php'>Members</a></li>
-                <li><a href='friends.php'>Friends</a></li>
-                <li><a href='messages.php'>Messages</a></li>
-                <li><a href='profile.php'>Edit Profile</a></li>
-                <li><a href='logout.php'>Log out</a></li>
-            </ul>
-            </nav>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #61b9fa;">
+  <a class="navbar-brand" href="#">
+  <img class='logo' src="img/ArtikunoLogo.png" alt="logo" width="100" class="d-inline-block align-middle mr-2">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="members.php?view=$user">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messages.php">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messages.php">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messages.php">Workout Builder</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.php">Profile Edit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="logout.php">Logout</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+    </span>
+  </div>
+</nav>
 _LOGGEDIN;
 } else {
 echo <<<_GUEST
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #61b9fa;">
   <a class="navbar-brand" href="#">
-  <img class='logo' src="img/ArticWolf.jpg" alt="logo" width="60" class="d-inline-block align-middle mr-2">
+  <img class='logo' src="img/ArtikunoLogo.png" alt="logo" width="100" class="d-inline-block align-middle mr-2">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

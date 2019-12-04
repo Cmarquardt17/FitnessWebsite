@@ -6,7 +6,7 @@ if ($loggedin)
     echo " $user, you are logged in";
 else           
 echo <<<_END
-<h1> Welcome to Fitness Bros! </h1>
+<h1> Welcome to Projekt Bleu! </h1>
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->

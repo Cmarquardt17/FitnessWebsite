@@ -19,7 +19,8 @@ createTable('members',
             mIn VARCHAR(5),
             last VARCHAR(16),
             type VARCHAR(16),
-
+            height INTEGER,
+            weight INTEGER,
             INDEX(user(6))');
 
 createTable('blogs',
