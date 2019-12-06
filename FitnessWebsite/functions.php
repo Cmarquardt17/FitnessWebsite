@@ -1,9 +1,9 @@
 <?php
 $dbhost  = 'localhost';
 
-$dbname  = 'db31';   // Modify these...
-$dbuser  = 'user31';   // ...variables according
-$dbpass  = '31test';   // ...to your installation
+$dbname  = 'db10';   // Modify these...
+$dbuser  = 'user10';   // ...variables according
+$dbpass  = '10rodi';   // ...to your installation
 
 
 $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
