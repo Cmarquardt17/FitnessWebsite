@@ -86,6 +86,9 @@ echo <<<_LOGGEDIN
     <li class="nav-item">
       <a class="nav-link" href="blog.php">Blog</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="fitness.php">Exercises</a>
+    </li>
     </ul>
     <span class="navbar-text">
     </span>
