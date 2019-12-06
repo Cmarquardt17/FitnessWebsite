@@ -31,16 +31,16 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/blog.php">Blog</a>
+              <a href="blog.php">Blog</a>
             </li>
             <li>
-              <a href="#!">Facebook</a>
+              <a href="http://www.facebook.com">Facebook</a>
             </li>
             <li>
-              <a href="#!">Instagram</a>
+              <a href="http://www.instagram.com">Instagram</a>
             </li>
             <li>
-              <a href="#!">Twitter</a>
+              <a href="http://www.twitter.com">Twitter</a>
             </li>
           </ul>
   
@@ -55,16 +55,16 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/login.php">Login</a>
+              <a href="login.php">Login</a>
             </li>
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/signup.php">Sign Up</a>
+              <a href="signup.php">Sign Up</a>
             </li>
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/about.php">About</a>
+              <a href="about.php">About</a>
             </li>
             <li>
-              <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">Developers</a>
+              <a href="dev.php">Developers</a>
             </li>
           </ul>
   
@@ -75,13 +75,6 @@
       <!-- Grid row -->
   
     </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
   
   </footer>
   </div>
