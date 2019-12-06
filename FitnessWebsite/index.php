@@ -34,7 +34,7 @@ echo <<<_END
       </div>
       </div>
 
-      <a href="http://localhost/FitnessWebsite/FitnessWebsite/dev.php">
+      <a href="dev.php">
       <div class="carousel-item">
         <img src="img/matrix.jpg" alt="Matrix">
         <div class="carousel-caption d-none d-md-block">
