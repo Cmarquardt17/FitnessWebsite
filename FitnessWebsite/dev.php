@@ -19,7 +19,7 @@ echo<<<_END
     <h1>&nbsp<h1>
     <h4 class = "text-center"> Apply to be a member of <strong>Swole Team Six</strong> email here:</h4>
     <h2 class ="text-center"> <strong> support@swolesix.com </strong> <h2>
-    <h3><img id = 'Map' src='img/map.jpg' alt='Map' height='400' weight='400'></h3>
+    <h3><img src='img/map.jpg' class="img-responsive" alt="Map" width="500" height="350"></h3>
     <p class= "text-center">Located in Bozeman our Team is proud to have been providing websites for the last four years. However, if you do chose to work for us we offer the opportunity to work remotely. Why work for us? Swole Six prides itself with providing functional and efficient websites. We were voted the best company to get your foot into the profesional world of web development.</p>
     </div>
 </div>
